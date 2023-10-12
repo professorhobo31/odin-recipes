@@ -40,3 +40,41 @@ img {
     height: auto;
     float: right;
 }
+/*Index Page Customization*/
+h1.indexTitle {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    margin: 8px 800px 8px auto;
+    padding: 50px;
+    border-style: double;
+    border-width: 25px;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    background-color: black;
+}
+
+.indexList li {
+    margin-left: 20%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 45px;
+    border-left: solid 5px;
+    border-color: darkred;
+    list-style: square;
+}
+/*Index List Buttons*/
+a:link, a:visited {
+    background-color: darkred;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a:hover, a:active {
+    background-color: red;
+  }
